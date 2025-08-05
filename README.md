@@ -1,79 +1,50 @@
-# PatientAssistant
-🩺 Patient Assistant – AI-Powered Medical Chatbot
-Patient Assistant is a smart healthcare chatbot designed to assist users by answering health-related questions, providing medical information, and offering accessible interaction through a simple and intuitive web interface. The system integrates a fine-tuned medical language model with a retrieval-augmented architecture, enabling the chatbot to deliver context-aware and trustworthy answers.
+# Welcome to your Expo app 👋
 
-🚀 Features
-💬 Natural language chat interface for medical queries
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-🔍 RAG (Retrieval-Augmented Generation) system for evidence-based responses
+## Get started
 
-🧠 Med-GEMMA LLM (fine-tuned for healthcare domain)
+1. Install dependencies
 
-🔊 Text-to-Speech support for accessibility
+   ```bash
+   npm install
+   ```
 
-📰 Explore section with health news, medication info, expert directories, and appointment features
+2. Start the app
 
-🧓 User-friendly interface designed with elderly and accessibility needs in mind
+   ```bash
+   npx expo start
+   ```
 
-🔐 Firebase-based user authentication & secure data storage
+In the output, you'll find options to open the app in a
 
-📊 Real-time chat history and multi-section layout (Home, Chat, Explore, Profile)
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-🛠️ Technologies Used
-🧠 AI & NLP
-Med-GEMMA (Google) – Fine-tuned for medical accuracy and safety
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-SentenceTransformers – For generating embeddings of medical datasets
+## Get a fresh project
 
-Qdrant – Vector database for similarity search and semantic retrieval
+When you're ready, run:
 
-Retrieval-Augmented Generation (RAG) – To ground model answers with real data
+```bash
+npm run reset-project
+```
 
-Prompt Engineering – Used to enhance model behavior in specific use cases
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-🌐 Backend
-FastAPI – Lightweight Python-based web framework
+## Learn more
 
-Python 3.10+ – Primary backend programming language
+To learn more about developing your project with Expo, look at the following resources:
 
-RESTful API endpoints for search and chat integration
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-Custom temperature & token parameters to reduce hallucinations and allow long, informative responses
+## Join the community
 
-💻 Frontend
-React – Component-based frontend framework
+Join our community of developers creating universal apps.
 
-Zustand – Lightweight state management
-
-Responsive UI – Optimized for desktop and tablet use
-
-Text-to-Speech (TTS) – JavaScript-based voice playback of chatbot answers
-
-Accessible components for all user groups
-
-🔐 Authentication & Database
-Firebase Authentication – Secure login and registration
-
-Firebase Firestore – Real-time database for storing chat logs and user profiles
-
-📁 Dataset Sources
-Patient Assistant uses curated and cleaned medical datasets to power its RAG pipeline:
-
-medical_qa
-
-clinical_conditions_symptoms
-
-nlp_dialogue_datasets
-
-All datasets are processed and embedded into the Qdrant database in JSONL format with fields like question, answer, category, and source.
-
-📷 UI Preview
-Screens include:
-
-Home Page with friendly chatbot robot visual & "Start Chat" button
-
-Chat Interface with TTS functionality
-
-Explore tab with health articles, expert lookup, and appointment module
-
-Profile tab for user data and session history
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
