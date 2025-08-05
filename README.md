@@ -82,9 +82,3 @@ Chat Interface with TTS functionality
 
 
 
-
-Explore tab with health articles, expert lookup, and appointment module
-
-Profile tab for user data and session history
-
-
