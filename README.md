@@ -76,8 +76,9 @@ Chat Interface with TTS functionality
 <img width="360" height="782" alt="Ekran Resmi 2025-08-05 10 29 24" src="https://github.com/user-attachments/assets/3625f078-0d59-4f35-aefe-2f3158a66458" />
 <img width="360" height="782" alt="Ekran Resmi 2025-08-05 10 24 05" src="https://github.com/user-attachments/assets/01ccaf2e-88ae-41fd-9fbc-90813f1b7d83" />
 
+<img width="360" height="782" alt="Ekran Resmi 2025-08-05 10 24 24" src="https://github.com/user-attachments/assets/3e3baa9a-5657-45f0-8636-a94d0680b996" />
 
-<img width="360" height="782" alt="Ekran Resmi 2025-08-05 10 29 24" src="https://github.com/user-attachments/assets/712bf0e0-b5c8-4693-8d80-2b67860afd81" />
+
 
 
 
